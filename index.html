@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css">
+        <title></title>
+    </head>
+    <body>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="login">
+            <div id="name">
+                <input type="text" placeholder="Name" required>
+            </div>
+            <div id="password">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div id="login-button">
+                <button>Log in</button>
+            </div>   
+       
+        </form>
+
+        <form id="logout" class="hidden">
+            <button>Log out</button> 
+        </form>
+
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+        <form id="todo-form">
+            <input type="text" placeholder="To Do List" required>
+        </form>
+        <ul id="todo-list">
+        </ul>
+
+        <h2>
+            <div id="dates"></div>
+            <div id="clock"></div>
+        </h2>
+
+        <script src="js/background.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
+

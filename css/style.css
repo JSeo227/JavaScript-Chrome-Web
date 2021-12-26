@@ -1,0 +1,205 @@
+body {
+    background: no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    text-align: center;
+    color: white;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 15%;
+    border-radius: 20px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 45px;
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+
+    font-size: 30px;
+}
+
+
+div#weather {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -42%);
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+input {
+    border: none;
+    outline: none;
+
+    font-size: 18px;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+input::placeholder {
+    color: white;
+  }
+
+
+#login {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#name {
+    float: left;
+
+    width: 300px;
+    height: 35px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+div#name input{
+    
+    padding-top: 7px;
+    padding-left: 115px;
+}
+
+#password {
+    width: 300px;
+    height: 35px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    position: absolute;
+    top: 35px;
+}
+
+div#password input{
+    padding-top: 7px;
+    padding-left: 115px;
+}
+
+button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#login-button {
+    float: right;
+
+    width: 70px;
+    height: 70px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+
+}
+
+div#login-button button{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+}
+
+#logout {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    transform: translate(-0%, 0%);
+
+    border-radius: 100px;
+
+}
+
+#logout button {
+    width: 50px;
+    height: 50px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+#todo-form {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -65%);
+
+    width: 400px;
+    height: 65px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+
+}
+
+#todo-form input {
+
+    width: 400px;
+    height: 65px;
+
+    font-size: 30px;
+    text-align: center;
+
+    vertical-align: text-middle;
+
+}
+
+
+#todo-list {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+
+    transform: translate(-50%, -80%);
+
+}
+
+li {
+    font-size: 18px;
+    text-align: left;
+
+    list-style: none;
+}
+
+
+
+
+.hidden {
+    display: none;
+}
